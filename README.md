@@ -1,10 +1,31 @@
-This is a Java-Based Car Rental Management System where CUSTOMER can 
-1. login/ register
-2. view available cars
-3. book cars
-4. view booked car history
-and 
-ADMIN can
-1. approve/ decline booking requests
-2. add/ edit/ delete/ view cars
-3. view reports of overall approve/ decline percentage OR monthly sales 
+# Car Rental Management System
+
+A Java-based Car Rental Management System with a simple GUI and file-based storage.
+
+## Features
+
+### For Customers
+
+- Login / Register
+- View available cars
+- Book cars
+- View booking history
+
+### For Admins
+
+- Approve / Decline booking requests
+- Add, edit, delete, and view cars
+- View reports:
+  - Overall approve/decline percentage
+  - Monthly sales
+
+## Getting Started
+
+1. Clone the repository.
+2. Compile the Java files in the `java_program` directory.
+3. Run the main GUI class.
+
+## File Structure
+
+- `java_program/` — Java source files
+- `txt/` — Data files (cars, users, bookings)
